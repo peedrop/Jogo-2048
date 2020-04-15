@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="../css/2048.css" rel="stylesheet">
+    <title>2048</title>
+    <link rel="icon" href="../img/titulo.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div id="tampar_gameover">
+        <h1>2048</h1>
+        <div id="funcionalidades">
+            <div id="campo1">
+                <input id="reiniciar" type="button" onclick="jogarnovamente()" value="Reiniciar">
+            </div>
+			<div id="espaco"></div>
+            <div id="campo">
+                <p id="top">Pontuação:</p>
+                <p id="pontuacao"></p>
+            </div>
+            <div id="espaco"></div>
+            <div id="campo" id="tamanho-bloco">
+
+                <p id="colar">Tamanho: </p>
+
+                <input id="tamanho" type="number" value="4">
+
+
+                <input id="mudar-tamanho" type="button" value="Mudar">
+
+            </div>
+            <div id="espaco"></div>
+            <div id="campo">
+                <p id="top">Tempo</p>
+                <p id="tempo"><span id="minutos">00</span>:<span id="segundos">00</span></p>
+
+            </div>
+			<div id="espaco"></div>
+            <div id="campo">
+                <input id="reiniciar" type="button" onclick="irranking()" value="Ranking">
+            </div>
+        </div>
+
+        <div id="bloco-jogo">
+
+            <canvas id="canvas" width="450" height="450"></canvas>
+
+        </div>
+    </div>
+    <div id="modal_gameover">
+        <img src="../img/gameover.png" id="img_gameover">
+        <input id="jogarnovamente" type="button" onclick="jogarnovamente()" value="Jogar novamente">
+    </div>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

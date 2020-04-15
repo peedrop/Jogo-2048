@@ -1,0 +1,47 @@
+.container{
+	width: 50%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    border: 10px solid #000000;
+    background-color: burlywood;
+    border-radius: 20px;
+    border-style: double;
+}
+body{
+	background-color: darkkhaki;
+    width: 99%;
+    height: 100%;
+}
+#botaoNovo{
+	margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 4px 11px;
+    border: 1px solid #ffcc00;
+    border-radius: 8px;
+    background-color: #FFFFFF !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffcc00), color-stop(100%, #ff6600)) !important;
+    background: -webkit-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -moz-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -ms-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -o-linear-gradient(top, #ffcc00, #ff6600) !important;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    width: 80%;
+    height: 50px;
+    text-shadow: 0 1px 0 #666;
+    box-shadow: inset 0 1px 1px #fff, 0 2px 3px #666;
+    cursor: pointer;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-family: "verdana";
+    color: #6d4c41;
+}

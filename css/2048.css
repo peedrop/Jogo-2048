@@ -1,0 +1,175 @@
+body {
+    background-color: darkkhaki;
+    height: 100%;
+    width: 99%;
+    text-align: center;
+}
+
+p {
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-family: "verdana";
+    color: #6d4c41;
+}
+
+#campo {
+    text-align: center;
+    width: 10%;
+    background: #6d4c41;
+    float: left;
+    height: 100%;
+    border: 5px solid #6d4c41;
+    border-radius: 20px;
+}
+
+#campo1 {
+    text-align: center;
+    width: 10%;
+    background: #6d4c41;
+    float: left;
+    height: 100%;
+    border: 5px solid #6d4c41;
+    border-radius: 20px;
+    margin-left: 18.5%;
+}
+
+#espaco {
+    width: 2%;
+    background: #6d4c41;
+    float: left;
+    border: 5px solid darkkhaki;
+    border-radius: 20px;
+}
+
+#mudar-tamanho {
+    margin-top: 10px;
+    padding: 4px 11px;
+    border: 1px solid #ffcc00;
+    border-radius: 8px;
+    background-color: #FFFFFF !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffcc00), color-stop(100%, #ff6600)) !important;
+    background: -webkit-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -moz-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -ms-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -o-linear-gradient(top, #ffcc00, #ff6600) !important;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 0 #666;
+    box-shadow: inset 0 1px 1px #fff, 0 2px 3px #666;
+    cursor: pointer;
+    position: relative;
+
+}
+
+#funcionalidades {
+    margin-top: -12px;
+    height: 70px;
+    background: darkkhaki;
+    margin-top: -15px;
+    border-bottom: 4.5px solid darkkhaki;
+    margin-bottom: 8px;
+}
+
+#colar {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#tamanho-bloco {
+    margin-left: -50px;
+    padding-left: 48%;
+
+}
+
+#top {
+    margin-top: 0px;
+}
+
+#tamanho {
+    width: 50px;
+    border-radius: 3px;
+    margin-top: 0px;
+}
+
+#canvas {
+    background-color: burlywood;
+}
+
+#bloco-jogo {
+    clear: both;
+    margin-left: -50%;
+    padding-left: 50%;
+}
+
+#tampar_gameover {
+    background: darkkhaki;
+}
+
+#modal_gameover {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+    z-index: -4;
+    margin-left: -25%;
+
+}
+#reiniciar{
+    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding: 4px 11px;
+    border: 1px solid #ffcc00;
+    border-radius: 8px;
+    background-color: #FFFFFF !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffcc00), color-stop(100%, #ff6600)) !important;
+    background: -webkit-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -moz-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -ms-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -o-linear-gradient(top, #ffcc00, #ff6600) !important;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    width: 80%;
+    height: 50px;
+    text-shadow: 0 1px 0 #666;
+    box-shadow: inset 0 1px 1px #fff, 0 2px 3px #666;
+    cursor: pointer;
+    position: relative;
+}
+#jogarnovamente {
+    margin-left: 50%;
+    padding: 4px 11px;
+    border: 1px solid #ffcc00;
+    border-radius: 8px;
+    background-color: #FFFFFF !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffcc00), color-stop(100%, #ff6600)) !important;
+    background: -webkit-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -moz-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -ms-linear-gradient(top, #ffcc00, #ff6600) !important;
+    background: -o-linear-gradient(top, #ffcc00, #ff6600) !important;
+    font-family: "Segoe UI";
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    text-shadow: 0 1px 0 #666;
+    box-shadow: inset 0 1px 1px #fff, 0 2px 3px #666;
+    cursor: pointer;
+    position: relative;
+}
+
+#img_gameover {
+    margin-top: 200px;
+    width: 50%;
+    margin-left: 50%;
+}
